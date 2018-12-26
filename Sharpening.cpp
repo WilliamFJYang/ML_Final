@@ -21,8 +21,8 @@
 using namespace cv;
 using namespace std;
 int main() {
-	const string read_dir = "../input/";
-	const string fileName[] = { "000.bmp" };
+  const string read_dir = "../input/";
+  const string fileName[] = { "000.bmp" };
   Mat image = imread(read_dir + fileNametemp, 1);
   Mat GX; Sobel(imageBGR, GX, 0, 1, 0, 3, 1, 0, BORDER_DEFAULT);
   Mat GY; Sobel(imageBGR, GY, 0, 0, 1, 3, 1, 0, BORDER_DEFAULT);
