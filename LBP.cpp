@@ -80,8 +80,9 @@ double * Hist_double(Mat image) {
 	return r;
 }
 int main() {
-	const string read_dir = "../input/";
-	const string fileName[] = { "000.bmp" };
+  const string read_dir = "../input/";
+  const string fileName[] = { "000.bmp" };
+  Mat image = imread(read_dir + fileNametemp, 1);
   image = LBP(image, 16);
   imshow("LBP", image);
   //------------------------------------------------------------------------------------------------------------------------------
