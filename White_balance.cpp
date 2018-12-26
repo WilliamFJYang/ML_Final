@@ -1,3 +1,20 @@
+#include <string.h>
+#include <io.h>
+#include <direct.h>
+
+#include <opencv/cv.h>
+#include <opencv/highgui.h>
+#include <stdio.h>
+#include <math.h>
+#include <vector>
+#include <float.h>
+
+#include <iostream>
+#include <opencv2/opencv.hpp>
+
+using namespace cv;
+using namespace std;
+
 int main() {
 	const string read_dir = "../input/";
 	const string fileName[] = { "000.bmp" };
