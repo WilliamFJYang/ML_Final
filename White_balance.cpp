@@ -16,8 +16,8 @@ using namespace cv;
 using namespace std;
 
 int main() {
-	const string read_dir = "../input/";
-	const string fileName[] = { "000.bmp" };
+  const string read_dir = "../input/";
+  const string fileName[] = { "000.bmp" };
   Mat image = imread(read_dir + fileNametemp, 1);
   vector<Mat> imageBGR_vector;
   Mat imageBGR;
